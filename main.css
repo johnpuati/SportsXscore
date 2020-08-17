@@ -1,0 +1,45 @@
+h1 {
+    color:blue;
+    font-size: 50xp;
+    font-style: italic;
+}
+h2{
+    color:royalblue;
+}
+
+#topSection {
+    border-width: 2px;
+    border-style: solid;
+    border-color: saddleb
+    rown;
+    padding: 40px;
+    margin: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the top navigation bar */
+.navbar{
+    overflow: hidden; /*Hide overflow */
+    background-color:blue ; /* Dark  background color */
+}
+
+/* Style the navigation bar links*/
+.navbar a{
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive
+    reasons (see beolow) */
+    color:rgba(27, 105, 11, 0.657); /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+.landing-page-container {
+    width: 100%;
+    min-height: 100%;
+    height: 100vh;
+    background-image: url("photo-1542683305-710078a12f73.jpg");
+}
